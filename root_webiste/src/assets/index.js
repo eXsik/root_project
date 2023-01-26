@@ -9,6 +9,7 @@ import slider2 from './slider2.png';
 import slider3 from './slider3.png';
 import slider4 from './slider4.png';
 import slider5 from './slider5.png';
+import offer2 from './offer2.jpg';
 
 export {
 	logo,
@@ -22,4 +23,5 @@ export {
 	slider3,
 	slider4,
 	slider5,
+	offer2,
 }

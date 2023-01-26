@@ -71,7 +71,7 @@ const Hero = () => {
 
               </div>
               <div className="z-[1]">
-                <img className="absolute sm:right-[50px] xl:right-0 top-[75px] max-w-[749px] max-h-[490px] z-[1] object-cover" src={slide.image} alt={`${slide.title} - obrazek`} />
+                <img className="absolute sm:right-[50px] xl:right-0 top-[75px] max-w-[749px] max-h-[490px] z-[1] object-cover" src={slide.image} alt={slide.alt} />
               </div>
             </>
           )}

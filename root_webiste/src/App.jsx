@@ -1,6 +1,6 @@
 import styles from './style';
 
-import { Navbar, Hero, Info } from './components';
+import { Navbar, Hero, Offer } from './components';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
 
       <div className={`${styles.flexCenter} bg-white`}>
         <div className={`${styles.boxWidth}`}>
-          <Info />
+          <Offer />
           {/* <Stats />
         <Business />
         <Billing />
