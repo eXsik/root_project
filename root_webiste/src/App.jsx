@@ -1,6 +1,5 @@
 import styles from './style';
-
-import { Navbar, Hero, Offer } from './components';
+import { Navbar, Hero, Offer, Projects, Contact, Footer } from './components';
 
 function App() {
 
@@ -19,16 +18,24 @@ function App() {
       </div>
 
       <div className={`${styles.flexCenter} bg-white`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} `}>
           <Offer />
-          {/* <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer /> */}
+        </div>
+      </div>
+
+      <div className={`${styles.flexCenter} bg-[#f6f6f6]`}>
+        <div className={`${styles.boxWidth}`}>
+         <Projects />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} bg-white`}>
+        <div className={`${styles.boxWidth}`}>
+         <Contact />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} bg-primary`}>
+        <div className={`${styles.boxWidth}`}>
+         <Footer />
         </div>
       </div>
     </div>

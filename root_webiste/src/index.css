@@ -125,18 +125,31 @@ html, body {
 }
 
 .blue__gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 165, 255, 0)), to(#214d76));
+  background: -o-linear-gradient(top, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
+  -webkit-filter: blur(123px);
+          filter: blur(123px);
 }
 
 .pink__gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#f4c4f3), to(#fc67fa));
+  background: -o-linear-gradient(left, #f4c4f3 0%, #fc67fa 100%);
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  -webkit-filter: blur(900px);
+          filter: blur(900px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  -webkit-filter: blur(750px);
+          filter: blur(750px);
+}
+
+@media screen and (min-width: 1060px) {
+  #offer {
+      clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%);
+    }
 }
 
 @layer components {
