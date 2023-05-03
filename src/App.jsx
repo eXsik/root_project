@@ -1,5 +1,5 @@
 import { styles } from './style';
-import { Navbar, Hero, Offer, Projects, Contact, Footer } from './components';
+import { Navbar, Hero, Offer, Contact, Footer } from './components';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
 
       <div className={`${styles.flexCenter} bg-[#f6f6f6]`}>
         <div className={`${styles.boxWidth}`}>
-         <Projects />
+         {/* <Projects /> */}
         </div>
       </div>
       <div className={`${styles.flexCenter} bg-white`}>
