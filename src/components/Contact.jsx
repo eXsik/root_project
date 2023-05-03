@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { house, phone, envelope } from '../assets';
-import styles, { layout } from '../style';
-import Button from './Button';
+import { styles, layout } from '../style';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });

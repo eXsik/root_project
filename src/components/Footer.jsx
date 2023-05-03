@@ -1,6 +1,6 @@
 import React from 'react'
 import { facebook, instagram, logo_white } from '../assets'
-import styles, { layout } from '../style'
+import { styles, layout } from '../style';
 
 const Footer = () => {
   return (

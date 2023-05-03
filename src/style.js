@@ -1,4 +1,4 @@
-const styles = {
+export const styles = {
   boxWidth: "xl:max-w-[1480px] w-full",
 
   heading2: "font-poppins font-semibold text-[30px] xs:text-[40px] text-white leading-[66.8px] w-full",
@@ -30,5 +30,3 @@ export const layout = {
 
   sectionInfo: `flex-1 flex-col`,
 };
-
-export default styles;

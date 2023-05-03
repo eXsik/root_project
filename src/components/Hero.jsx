@@ -1,5 +1,5 @@
 import { sliderData } from "../constants";
-import styles from "../style";
+import { styles } from '../style';
 import Button from "./Button";
 
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';

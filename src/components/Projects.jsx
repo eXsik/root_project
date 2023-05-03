@@ -1,4 +1,4 @@
-import styles, { layout } from "../style";
+import { styles, layout } from '../style';
 import FsLightbox from "fslightbox-react";
 
 import { motion } from "framer-motion";

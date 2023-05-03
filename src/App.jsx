@@ -1,4 +1,4 @@
-import styles from './style';
+import { styles } from './style';
 import { Navbar, Hero, Offer, Projects, Contact, Footer } from './components';
 
 function App() {

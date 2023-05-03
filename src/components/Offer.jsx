@@ -1,5 +1,5 @@
 import { offerData } from "../constants";
-import styles, { layout } from "../style";
+import { styles, layout } from '../style';
 
 import { motion } from "framer-motion";
 

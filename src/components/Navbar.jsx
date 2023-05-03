@@ -1,4 +1,4 @@
-import { logo, logo_org, logo_white, menu, close } from '../assets';
+import { logo_white, menu, close } from '../assets';
 import { navLinks } from '../constants';
 
 import { useState } from 'react';
