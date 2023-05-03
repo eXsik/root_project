@@ -5,10 +5,10 @@
   "homepage": "https://exsik.github.io/root_project",
   "type": "module",
   "scripts": {
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
